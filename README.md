@@ -1,39 +1,39 @@
 # Codex Skins
 
+Open-source themes and productivity enhancements for **Codex Desktop on Windows**.
+
 ## Download
 
-[⬇ Download Codex Skins for Windows](https://github.com/eyupkerimoglu/codex-skins/releases/latest/download/CodexSkinsSetup.exe)
+**[⬇ Download Codex Skins v1.0.0](https://github.com/eyupkerimoglu/codex-skins/releases/latest/download/CodexSkinsSetup.exe)**
 
-Open-source skins and productivity enhancements for **Codex Desktop**.
-
-**Created by Eyra**  
-GitHub: **@eyupkerimoglu**  
-Telegram: **@eyrafx**
-
-[Türkçe README](README_TR.md)
+[▶ Watch Demo](https://github.com/eyupkerimoglu/codex-skins/releases/latest/download/Codex_Skins_Demo_v1.mp4) · [Türkçe README](README_TR.md)
 
 > **Unofficial community project.** Codex Skins is not affiliated with or endorsed by OpenAI.
 
+---
+
 ## What is Codex Skins?
 
-Codex Skins adds visual themes and IDE-like productivity features to Codex Desktop while keeping the original Codex workflow available.
+Codex Skins adds visual themes and IDE-style productivity features to Codex Desktop while keeping the original Codex workflow available.
 
-The first release includes the **Matrix CRT** skin together with a project file tree, built-in code viewing/editing, and quick ways to send selected code into Codex chat.
+The first release includes the **Matrix CRT** skin, a project file tree, a built-in code editor, Skin Manager and additional workflow enhancements.
 
-## Current Skin — Matrix CRT
+## Matrix CRT
 
-Matrix CRT turns Codex Desktop into an interactive retro CRT workspace inspired by the Matrix aesthetic.
+An interactive retro CRT interface inspired by the Matrix aesthetic.
 
-### Highlights
+### Features
 
 - Interactive CRT-style Matrix interface
 - Matrix Rain effect with intensity controls
-- Functional monitor-style buttons
-- Skin Manager with **Matrix** and **Default Codex**
+- Two monitor appearances
+- Functional monitor-style controls
+- Skin Manager
+- Matrix and Default Codex modes
 - One-click return to the original Codex interface
-- Project **Chats / Files** separation
+- Project Chats / Files separation
 - VS Code-style project file tree
-- Built-in code viewer/editor in Codex's existing right panel
+- Built-in code viewer and editor
 - Syntax highlighting
 - Multiple file tabs
 - Search, edit, save, undo and redo
@@ -46,7 +46,7 @@ Matrix CRT turns Codex Desktop into an interactive retro CRT workspace inspired 
 
 | Control | Action |
 |---|---|
-| `1` | Toggle Matrix effect |
+| `1` | Toggle Matrix / Rain effects |
 | `← / →` | Decrease / increase effect intensity |
 | `2` | Switch monitor appearance |
 | `Power` | Darken / restore the CRT screen |
@@ -55,51 +55,46 @@ Matrix CRT turns Codex Desktop into an interactive retro CRT workspace inspired 
 ## Screenshots
 
 ### Matrix CRT
+
 ![Matrix CRT](assets/1.png)
 
 ### Clean / Retro CRT
+
 ![Clean Retro CRT](assets/2.png)
 
 ### Built-in Code Editor
+
 ![Built-in Code Editor](assets/3.png)
 
 ### Skin Manager
+
 ![Skin Manager](assets/4.png)
-
-## Demo
-
-A short demo video can be attached to the GitHub Release or added to the repository.
-
-Recommended filename:
-
-```text
-Codex_Skins_Demo.mp4
-```
 
 ## Installation
 
-1. Install the official **Codex Desktop** app first.
-2. Download the latest `CodexSkinsSetup.exe` from **Releases**.
+1. Install the official **Codex Desktop** app.
+2. Download **CodexSkinsSetup.exe** using the download link above.
 3. Run the installer.
 4. Launch **Codex Skins** from the desktop or Start menu.
-5. Choose **Matrix** or **Default Codex** from Skin Manager.
+5. Select **Matrix** or **Default Codex** from Skin Manager.
 
 Normal per-user installation does not require administrator access.
 
 ## Skin Manager
 
-Skin Manager lets you:
+Skin Manager allows you to:
 
-- choose the active skin
+- switch between available skins
+- return to the default Codex interface
 - remember the selected skin
 - hide Skin Manager on startup
-- reopen Skin Manager later from the palette icon inside Codex
+- reopen Skin Manager from the palette icon
 
-The skin list is registry/config-driven, so future skins can be added without redesigning the manager.
+The skin system is registry/config-driven, allowing additional skins to be added in future releases.
 
 ## Languages
 
-The custom Codex Skins UI currently supports:
+The custom Codex Skins interface currently supports:
 
 - English
 - Turkish
@@ -118,18 +113,18 @@ Unsupported locales fall back to English.
 
 ## Uninstall
 
-Use the **Codex Skins** uninstall entry in Windows or the included `Uninstall.exe`.
+Codex Skins can be removed using its Windows uninstall entry.
 
-The official Codex installation remains separate.
-
-## Roadmap
-
-More skins are planned. Future skins can provide their own appearance, controls and shortcuts while using the same Skin Manager.
+Uninstalling Codex Skins does not remove the official Codex Desktop installation.
 
 ## Requirements
 
 - Windows
 - Official Codex Desktop installation
+
+## Roadmap
+
+Additional skins and customization options are planned for future releases.
 
 ## Contributing
 
@@ -137,10 +132,13 @@ Issues, bug reports and pull requests are welcome.
 
 ## License
 
-Licensed under the **Apache License 2.0**. See [LICENSE](LICENSE).
+Licensed under the **Apache License 2.0**.
+
+See [LICENSE](LICENSE).
 
 ---
 
-**Created by Eyra**  
+Created by **Eyra**
+
 GitHub: **@eyupkerimoglu**  
 Telegram: **@eyrafx**
