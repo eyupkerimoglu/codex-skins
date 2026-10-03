@@ -1,5 +1,9 @@
 # Codex Skins
 
+## Download
+
+[⬇ Download Codex Skins for Windows](https://github.com/eyupkerimoglu/codex-skins/releases/latest/download/CodexSkinsSetup.exe)
+
 Open-source skins and productivity enhancements for **Codex Desktop**.
 
 **Created by Eyra**  
