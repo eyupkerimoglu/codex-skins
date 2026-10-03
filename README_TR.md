@@ -1,39 +1,43 @@
 # Codex Skins
 
-**Codex Desktop için açık kaynak skin ve üretkenlik eklentileri.**
+**Codex Desktop for Windows için açık kaynak tema ve üretkenlik geliştirmeleri.**
 
-**Geliştirici: Eyra**  
-GitHub: **@eyupkerimoglu**  
-Telegram: **@eyrafx**
+## İndir
 
-[English README](README.md)
+**[⬇ Codex Skins v1.0.0'ı indir](https://github.com/eyupkerimoglu/codex-skins/releases/latest/download/CodexSkinsSetup.exe)**
 
-> **Bağımsız topluluk projesidir.** OpenAI ile resmi bağlantısı veya onayı yoktur.
+[▶ Demoyu İzle](https://github.com/eyupkerimoglu/codex-skins/releases/latest/download/Codex_Skins_Demo_v1.mp4) · [English README](README.md)
+
+> **Bağımsız topluluk projesidir.** OpenAI ile resmi bağlantısı yoktur ve OpenAI tarafından desteklenmemektedir.
+
+---
 
 ## Codex Skins nedir?
 
-Codex Skins, orijinal Codex çalışma akışını korurken Codex Desktop'a görsel temalar ve IDE benzeri üretkenlik araçları ekler.
+Codex Skins, orijinal Codex çalışma akışını korurken Codex Desktop'a görsel temalar ve IDE tarzı üretkenlik özellikleri ekler.
 
-İlk sürümde **Matrix CRT** skini; proje dosya ağacı, yerleşik kod görüntüleme/düzenleme ve seçili kodu doğrudan Codex sohbetine gönderme özellikleriyle birlikte gelir.
+İlk sürüm; **Matrix CRT** teması, proje dosya ağacı, yerleşik kod editörü, Skin Manager ve ek çalışma akışı geliştirmelerini içerir.
 
-## Mevcut Skin — Matrix CRT
+## Matrix CRT
 
-Matrix CRT, Codex Desktop'ı Matrix estetiğinden esinlenen etkileşimli retro CRT çalışma alanına dönüştürür.
+Matrix estetiğinden esinlenen etkileşimli retro CRT arayüzü.
 
-### Öne çıkan özellikler
+### Özellikler
 
 - Etkileşimli CRT tarzı Matrix arayüzü
 - Yoğunluğu ayarlanabilen Matrix Rain efekti
-- İşlevsel monitör düğmeleri
-- **Matrix** ve **Default Codex** seçenekli Skin Manager
-- Tek tıkla orijinal Codex görünümüne dönüş
-- Proje içinde **Sohbetler / Dosyalar** ayrımı
-- VS Code benzeri proje dosya ağacı
-- Codex'in mevcut sağ panelinde yerleşik kod görüntüleyici/editör
+- İki farklı monitör görünümü
+- İşlevsel monitör kontrolleri
+- Skin Manager
+- Matrix ve Default Codex modları
+- Tek tıkla orijinal Codex arayüzüne dönüş
+- Proje içinde Sohbetler / Dosyalar ayrımı
+- VS Code tarzı proje dosya ağacı
+- Yerleşik kod görüntüleyici ve editör
 - Syntax renklendirme
 - Çoklu dosya sekmeleri
-- Arama, düzenleme, kaydetme, undo ve redo
-- Seçili kodu doğrudan Codex sohbetine ekleme
+- Arama, düzenleme, kaydetme, geri alma ve yineleme
+- Seçili kodu doğrudan Codex sohbetine gönderme
 - Seçili kodu Codex ile düzenleme
 - Çok dilli özel arayüz
 - Windows installer ve uninstaller
@@ -42,60 +46,51 @@ Matrix CRT, Codex Desktop'ı Matrix estetiğinden esinlenen etkileşimli retro C
 
 | Kontrol | İşlev |
 |---|---|
-| `1` | Matrix efektini aç/kapat |
-| `← / →` | Efekt yoğunluğunu azalt/artır |
+| `1` | Matrix / Rain efektlerini aç veya kapat |
+| `← / →` | Efekt yoğunluğunu azalt / artır |
 | `2` | Monitör görünümünü değiştir |
-| `Power` | CRT ekranını karart/aç |
+| `Power` | CRT ekranını karart / geri aç |
 | Palet ikonu | Skin Manager'ı aç |
 
 ## Ekran Görüntüleri
 
-Ekran görüntülerini repoda `assets/` klasörüne ekleyin:
+### Matrix CRT
 
-```text
-assets/matrix-crt.png
-assets/file-tree.png
-assets/code-editor.png
-```
+![Matrix CRT](assets/1.png)
 
-Sonra README içinde şöyle gösterin:
+### Clean / Retro CRT
 
-```md
-![Matrix CRT](assets/matrix-crt.png)
-![Proje dosya ağacı](assets/file-tree.png)
-![Yerleşik kod editörü](assets/code-editor.png)
-```
+![Clean Retro CRT](assets/2.png)
 
-## Demo
+### Yerleşik Kod Editörü
 
-Kısa demo videosunu GitHub Release'e ekleyebilir veya repoya koyabilirsiniz.
+![Yerleşik Kod Editörü](assets/3.png)
 
-Önerilen dosya adı:
+### Skin Manager
 
-```text
-Codex_Skins_Demo.mp4
-```
+![Skin Manager](assets/4.png)
 
 ## Kurulum
 
 1. Önce resmi **Codex Desktop** uygulamasını kurun.
-2. **Releases** bölümünden en güncel `CodexSkinsSetup.exe` dosyasını indirin.
+2. Yukarıdaki indirme bağlantısından **CodexSkinsSetup.exe** dosyasını indirin.
 3. Installer'ı çalıştırın.
-4. Masaüstü veya Başlat menüsündeki **Codex Skins** kısayolundan açın.
-5. Skin Manager'dan **Matrix** veya **Default Codex** seçin.
+4. Masaüstü veya Başlat menüsünden **Codex Skins**'i açın.
+5. Skin Manager üzerinden **Matrix** veya **Default Codex** seçin.
 
 Normal kullanıcı kurulumu için yönetici yetkisi gerekmez.
 
 ## Skin Manager
 
-Skin Manager üzerinden:
+Skin Manager ile:
 
-- aktif skin seçilebilir
-- son seçim hatırlanabilir
+- mevcut skinler arasında geçiş yapılabilir
+- Default Codex arayüzüne dönülebilir
+- seçilen skin hatırlanabilir
 - Skin Manager'ın başlangıçta açılması kapatılabilir
 - Codex içindeki palet ikonundan tekrar açılabilir
 
-Skin listesi registry/config üzerinden dinamik üretildiği için ileride yeni skinler manager yeniden tasarlanmadan eklenebilir.
+Skin sistemi registry/config tabanlıdır ve gelecek sürümlerde yeni skinlerin eklenmesine uygundur.
 
 ## Diller
 
@@ -114,22 +109,22 @@ Codex Skins'in özel arayüzü şu dilleri destekler:
 - Japonca
 - Korece
 
-Desteklenmeyen dillerde İngilizce kullanılır.
+Desteklenmeyen sistem dillerinde İngilizce kullanılır.
 
 ## Kaldırma
 
-Windows'taki **Codex Skins** kaldırma girişini veya paketteki `Uninstall.exe` dosyasını kullanın.
+Codex Skins, Windows'taki kaldırma seçeneği üzerinden kaldırılabilir.
 
-Resmi Codex kurulumu ayrı kalır.
-
-## Yol Haritası
-
-Yeni skinler planlanıyor. Gelecek skinler aynı Skin Manager üzerinden kendi görünümünü, kontrollerini ve kısa yollarını sunabilecek.
+Codex Skins'i kaldırmak resmi Codex Desktop kurulumunu etkilemez.
 
 ## Gereksinimler
 
 - Windows
 - Resmi Codex Desktop kurulumu
+
+## Yol Haritası
+
+Gelecek sürümler için yeni skinler ve ek özelleştirme seçenekleri planlanmaktadır.
 
 ## Katkı
 
@@ -137,10 +132,13 @@ Issue, hata bildirimi ve pull request'ler kabul edilir.
 
 ## Lisans
 
-**Apache License 2.0** ile lisanslanmıştır. Ayrıntı için [LICENSE](LICENSE).
+**Apache License 2.0** ile lisanslanmıştır.
+
+Ayrıntılar için [LICENSE](LICENSE).
 
 ---
 
-**Created by Eyra**  
+**Eyra tarafından geliştirildi**
+
 GitHub: **@eyupkerimoglu**  
 Telegram: **@eyrafx**
