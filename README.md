@@ -50,21 +50,17 @@ Matrix CRT turns Codex Desktop into an interactive retro CRT workspace inspired 
 
 ## Screenshots
 
-Add screenshots to the repository under `assets/`:
+### Matrix CRT
+![Matrix CRT](assets/1.png)
 
-```text
-assets/matrix-crt.png
-assets/file-tree.png
-assets/code-editor.png
-```
+### Clean / Retro CRT
+![Clean Retro CRT](assets/2.png)
 
-Then display them in this README:
+### Built-in Code Editor
+![Built-in Code Editor](assets/3.png)
 
-```md
-![Matrix CRT](assets/matrix-crt.png)
-![Project file tree](assets/file-tree.png)
-![Built-in code editor](assets/code-editor.png)
-```
+### Skin Manager
+![Skin Manager](assets/4.png)
 
 ## Demo
 
