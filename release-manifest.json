@@ -1,0 +1,17 @@
+{
+  "name": "Codex Skins",
+  "version": "1.0.2",
+  "files": [
+    "Install.vbs", "Launch.vbs", "Uninstall.vbs", "Uninstall.exe", "install.ps1", "uninstall.ps1",
+    "README_FINAL.md", "TEST_RESULTS.md", "release-manifest.json",
+    "assets/codex-skins.ico", "assets/codex-skins-preview.png",
+    "runtime/node.exe", "runtime/LICENSE.node.txt",
+    "startup/open-codex.ps1", "startup/package-shell.ps1", "startup/install-shortcut.ps1",
+    "skin-manager/registry.js", "skin-manager/config.cjs", "skin-manager/cdp.cjs", "skin-manager/controller.cjs",
+    "skin-manager/bundle.cjs", "skin-manager/lifecycle.js", "skin-manager/renderer.js", "skin-manager/startup-notice.ps1",
+    "matrix-i18n.js", "matrix-skin-v2.js", "matrix-monitor-audio.js",
+    "matrix-ide/runtime.js", "matrix-ide/codex-context-bridge.js", "matrix-ide/file-tree.js",
+    "matrix-ide/project-tabs.js", "matrix-ide/editor-panel.js", "matrix-ide/bootstrap.js",
+    "tests/skins-config.cjs", "tests/skin-registry.cjs", "tests/skins-startup.cjs", "tools/build-skins-icon.ps1", "tools/package-final.ps1"
+  ]
+}
